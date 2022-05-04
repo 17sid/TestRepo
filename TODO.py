@@ -1,5 +1,5 @@
 # Importing all the necessary modules
-from Tkinter import *
+from tkinter import *
 def add_item(entry: Entry, listbox: Listbox):
     new_task = entry.get()
     listbox.insert(END, new_task)
